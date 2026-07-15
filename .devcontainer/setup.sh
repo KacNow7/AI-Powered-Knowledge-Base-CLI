@@ -7,4 +7,5 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama serve > ollama.log 2>&1 &
 sleep 5
 ollama pull llama3
+pip install -r requirements.txt
 echo "Ollama jest gotowa!"
