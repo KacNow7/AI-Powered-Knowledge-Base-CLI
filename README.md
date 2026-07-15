@@ -12,6 +12,7 @@ A production-grade, modular CLI tool designed for interacting with local LLMs vi
 
 ## Project Structure
 
+```text
 ai-knowledge-base-cli/
 ├── .devcontainer/         # Infrastructure as Code (environment orchestration)
 ├── .github/workflows/     # Automated linting and CI pipelines
@@ -21,6 +22,7 @@ ai-knowledge-base-cli/
 │   └── engine.py          # Service encapsulation layer
 ├── requirements.txt       # Hardened dependency definitions
 └── README.md              # Project documentation
+```
 
 ## Execution Guide
 
