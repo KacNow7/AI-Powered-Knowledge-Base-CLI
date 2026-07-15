@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# --- IDE & Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs & System ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Ollama ---
+# Ignoruje pliki modeli i dane lokalne Ollamy
+.ollama/
+models/
+
+# --- Codespaces ---
+# Ignoruje specyficzne pliki konfiguracyjne środowiska
+.devcontainer/bin/
